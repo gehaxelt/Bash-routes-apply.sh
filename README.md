@@ -53,7 +53,7 @@ default via 192.168.2.1 dev eth0 proto static
 172.16.10.0/24 dev homelan proto kernel scope link src 172.16.10.3 
 192.168.2.0/24 dev eth0 proto kernel scope link src 192.168.2.93 
 ```
-The script waited until the timeout and then reverted to the lastest rule set.
+The script waits for `TIMEOUT` seconds and then reverts to the saved rule set.
 
 # License
 MIT - See [LICENSE](./LICENSE)
