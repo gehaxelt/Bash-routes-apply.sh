@@ -2,6 +2,8 @@ routes-apply.sh
 =======================
 A small bash script to safely apply route rules. It is supposed to be an equivalent to iptable's `iptables-apply` command. 
 
+[Here's a blogpost about it](https://0day.work/routes-apply-sh-safely-apply-routes-and-revert-on-error/)
+
 # Usage
 The tool needs to be executed as root to be able to change the routes. The first argument should be a file containing line-wise arguments to `ip route`.  
 For example:
